@@ -1,0 +1,36 @@
+
+.data-row{
+  cursor: pointer;
+}
+
+.table{
+		width:100%; 
+		border-collapse:collapse; 
+    margin-top:2%;
+    table-layout: fixed;
+}
+
+.table .title-row{
+  color:#FF4C8B;
+  letter-spacing: 0.857143px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: left;
+}
+	.table th, td{ 
+    padding:8px;
+    border-bottom:1px solid #868E96;
+	}
+  .table .data-row:hover {
+      background-color: #212529;
+      color:white;
+    }
+
+.align-right{
+  text-align:right;
+}
+
+.collection-name{
+  padding:8px;
+}
+
