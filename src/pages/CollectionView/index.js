@@ -33,7 +33,7 @@ export default function CollectionView() {
 
   // Request for collection data
   const handleCollection = async() => {
-    const resp = await axios.get(`https://api.covalenthq.com/v1/${id}/nft_market_cap/collection/${address}/?&key=${API_KEY}`)
+    const resp = await axios.get(`https://api.covalenthq.com/v1/${id}/nft_market/collection/${address}/?&key=${API_KEY}`)
     setData(resp.data.data.items[0])
   }
 

@@ -22,7 +22,7 @@ export default function LandingPage() {
 
     // Request for market (global view)
     const handleMarket = async(id) => {
-      const resp = await axios.get(`https://api.covalenthq.com/v1/${id}/nft_market_cap/?&key=${API_KEY}`)
+      const resp = await axios.get(`https://api.covalenthq.com/v1/${id}/nft_market/?&key=${API_KEY}`)
       setMarket(resp.data.data.items)
       setLoader(false)
     }
